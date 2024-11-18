@@ -233,6 +233,8 @@ li:hover {
 
 .container {
   display: flex;
+  flex: wrap;
+  flex-direction: row;
   height: 70vh;
   justify-content: space-around;
   align-items: baseline;
@@ -252,7 +254,6 @@ li:hover {
   color: gray;
   padding-left: 2cap;
   background-color: #ffffff;
-  margin-right: 2.2cap;
   margin-top: -0.7cap;
   padding-bottom: 2cap;
   border-bottom-left-radius: 2cap;
@@ -345,6 +346,8 @@ li:hover {
 
 .foot {
   display: flex;
+  flex: wrap;
+  flex-direction: row;
   padding-top: 12px;
   padding-bottom: 12px;
   border-color: #000000;
